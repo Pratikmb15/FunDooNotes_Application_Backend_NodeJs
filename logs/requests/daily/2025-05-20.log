@@ -1,0 +1,40 @@
+info: ::1 - - [20/May/2025:09:24:43 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
+
+info: ::1 - - [20/May/2025:09:24:43 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
+
+info: ::1 - - [20/May/2025:09:24:52 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
+
+info: ::1 - - [20/May/2025:09:25:09 +0000] "GET /api/v1/Users HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
+
+info: ::1 - - [20/May/2025:09:25:16 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
+
+info: ::1 - - [20/May/2025:09:26:22 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:28:30 +0000] "POST /api/v1/users HTTP/1.1" 400 81 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:29:19 +0000] "POST /api/v1/users HTTP/1.1" 400 81 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:31:22 +0000] "POST /api/v1/users HTTP/1.1" 400 81 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:31:31 +0000] "PUT /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:31:36 +0000] "POST /api/v1/users HTTP/1.1" 400 81 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:33:55 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:35:15 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:37:35 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:37:37 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:38:11 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:38:26 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:38:54 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:40:32 +0000] "POST /api/v1/users HTTP/1.1" 201 297 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:09:40:49 +0000] "POST /api/v1/users HTTP/1.1" 400 60 "-" "PostmanRuntime/7.44.0"
+
