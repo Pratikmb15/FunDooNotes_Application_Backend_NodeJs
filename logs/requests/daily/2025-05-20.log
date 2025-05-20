@@ -38,3 +38,11 @@ info: ::1 - - [20/May/2025:09:40:32 +0000] "POST /api/v1/users HTTP/1.1" 201 297
 
 info: ::1 - - [20/May/2025:09:40:49 +0000] "POST /api/v1/users HTTP/1.1" 400 60 "-" "PostmanRuntime/7.44.0"
 
+info: ::1 - - [20/May/2025:10:38:59 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:10:43:08 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
+
+info: ::1 - - [20/May/2025:10:50:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 265 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [20/May/2025:10:55:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 265 "-" "PostmanRuntime/7.44.0"
+

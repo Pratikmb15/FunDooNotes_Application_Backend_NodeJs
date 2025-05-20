@@ -28,3 +28,22 @@ export const registerUser = async (req, res, next) => {
 
   }
 }
+
+export const loginUser =async (req,res,next)=>{
+  try{
+const result = await userService.loginUser(req.body);
+res.status(HttpStatus.OK).json({
+  code:HttpStatus.OK,
+  success:true,
+  message:'User Login successfully ',
+  data:result
+})
+}catch (error) {
+  return res.status(HttpStatus.BAD_REQUEST).json({
+    code: HttpStatus.BAD_REQUEST,
+    success: false,
+    message: error.message
+  });
+
+}
+}
