@@ -9,5 +9,5 @@ export const generateToken = (payload) => {
   return jwt.sign(payload, secret, { expiresIn });
 };
 export const generateResetToken = (payload) => {
-  return jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '15m' });
+  return jwt.sign(payload, secret, { expiresIn: '15m' });
 };
