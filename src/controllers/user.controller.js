@@ -29,21 +29,40 @@ export const registerUser = async (req, res, next) => {
   }
 }
 
-export const loginUser =async (req,res,next)=>{
-  try{
-const result = await userService.loginUser(req.body);
-res.status(HttpStatus.OK).json({
-  code:HttpStatus.OK,
-  success:true,
-  message:'User Login successfully ',
-  data:result
-})
-}catch (error) {
-  return res.status(HttpStatus.BAD_REQUEST).json({
-    code: HttpStatus.BAD_REQUEST,
-    success: false,
-    message: error.message
-  });
+export const loginUser = async (req, res, next) => {
+  try {
+    const result = await userService.loginUser(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      success: true,
+      message: 'User Login successfully ',
+      data: result
+    })
+  } catch (error) {
+    return res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      success: false,
+      message: error.message
+    });
 
+  }
 }
+
+export const forgotPassword = async (req, res, next) => {
+  try {
+    
+    const result = await userService.forgotPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      success: true,
+      message: result.message,
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      success: false,
+      message: error.message,
+    });
+  }
+
 }

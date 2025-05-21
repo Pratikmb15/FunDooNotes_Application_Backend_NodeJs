@@ -8,3 +8,6 @@ const expiresIn = '1h';
 export const generateToken = (payload) => {
   return jwt.sign(payload, secret, { expiresIn });
 };
+export const generateResetToken = (payload) => {
+  return jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '15m' });
+};
