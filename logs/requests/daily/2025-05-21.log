@@ -1,0 +1,8 @@
+info: ::1 - - [21/May/2025:06:28:35 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:06:30:02 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:06:31:49 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 96 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:06:32:54 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 92 "-" "PostmanRuntime/7.44.0"
+
