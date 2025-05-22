@@ -1,0 +1,37 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T05:16:49.349Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T05:16:49.824Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T05:18:54.166Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T05:18:54.576Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T05:19:46.563Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T05:19:47.008Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T05:59:15.844Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T05:59:16.084Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T05:59:33.268Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T05:59:33.523Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:02:05.867Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:02:06.143Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:03:28.378Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:03:34.239Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:03:40.161Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:05:22.588Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:07:26.621Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:07:35.327Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:08:17.465Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:08:17.752Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-05-22T06:11:34.160Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:12:15.988Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:12:16.310Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:12:55.176Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:12:55.464Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:24:45.902Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:24:46.162Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:25:43.753Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:25:44.030Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-22T06:29:31.357Z"}
+info: Connected to the database. {"timestamp":"2025-05-22T06:29:31.583Z"}
