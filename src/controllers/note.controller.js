@@ -52,4 +52,60 @@ export const updateNote = async (req, res) => {
             message: error.message
         });
     }
-}
+};
+
+export const getAllNotes = async (req, res) => {
+    try {
+      const { userId } = res.locals.user;
+      const result = await notesService.getAllNotes(userId);
+  
+      if (!result.success) {
+        return res.status(404).json({
+          success: false,
+          message: result.message,
+          data: []
+        });
+      }
+  
+      return res.status(200).json({
+        success: true,
+        message: result.message,
+        data: result.data
+      });
+  
+    } catch (error) {
+      return res.status(500).json({
+        success: false,
+        message: error.message
+      });
+    }
+  };
+
+  export const getNotebyId = async (req, res) => {
+    try {
+      const { userId } = res.locals.user;
+      const noteId = req.params.noteId;
+      const result = await notesService.getNoteById(userId,noteId);
+  
+      if (!result.success) {
+        return res.status(404).json({
+          success: false,
+          message: result.message,
+          data: []
+        });
+      }
+  
+      return res.status(200).json({
+        success: true,
+        message: result.message,
+        data: result.data
+      });
+  
+    } catch (error) {
+      return res.status(500).json({
+        success: false,
+        message: error.message
+      });
+    }
+  };
+  
