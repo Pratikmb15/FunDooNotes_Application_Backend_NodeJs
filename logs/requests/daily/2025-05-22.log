@@ -10,3 +10,13 @@ info: ::1 - - [22/May/2025:06:12:59 +0000] "POST /api/v1/note HTTP/1.1" 400 116 
 
 info: ::1 - - [22/May/2025:06:30:12 +0000] "POST /api/v1/note HTTP/1.1" 201 65 "-" "PostmanRuntime/7.44.0"
 
+info: ::1 - - [22/May/2025:08:03:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:03:38 +0000] "PUT /api/v1/note HTTP/1.1" 400 95 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:06:43 +0000] "PUT /api/v1/note HTTP/1.1" 400 120 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:07:20 +0000] "PUT /api/v1/note/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:08:57 +0000] "PUT /api/v1/note/1 HTTP/1.1" 200 65 "-" "PostmanRuntime/7.44.0"
+
