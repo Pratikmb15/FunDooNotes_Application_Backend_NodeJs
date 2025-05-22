@@ -1856,3 +1856,53 @@ info: ::1 - - [22/May/2025:10:12:12 +0000] "GET /api/v1/note/1 HTTP/1.1" 500 84 
 
 info: ::1 - - [22/May/2025:10:13:14 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.44.0"
 
+info: ::1 - - [22/May/2025:16:04:51 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:05:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:05:19 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:05:58 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:06:00 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:06:02 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:04 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:11 +0000] "GET /api/v1/note/1 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:35 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:43 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:50 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:08:42 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:08:49 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:08:58 +0000] "PATCH /api/v1/note/trash/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:03 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:15 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 64 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:22 +0000] "PATCH /api/v1/note/trash/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:28 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:33 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:38 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:42 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:18:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:19:07 +0000] "DELETE /api/v1/note/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:19:11 +0000] "DELETE /api/v1/note/1 HTTP/1.1" 404 43 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:19:17 +0000] "GET /api/v1/note/1 HTTP/1.1" 404 53 "-" "PostmanRuntime/7.44.0"
+

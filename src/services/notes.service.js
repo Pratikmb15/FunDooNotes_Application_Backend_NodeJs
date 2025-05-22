@@ -43,7 +43,7 @@ export const updateNote = async (userId, noteId, updateData) => {
 export const getAllNotes = async (userId) => {
     try {
         const notes = await Note.findAll({ where: { userId: userId } });
-        if(!notes || notes.length === 0){
+        if (!notes || notes.length === 0) {
             return { success: false, message: 'No Notes Found', data: [] };
 
         }
@@ -59,10 +59,10 @@ export const getAllNotes = async (userId) => {
 
 };
 
-export const getNoteById = async (userId,noteId) => {
+export const getNoteById = async (userId, noteId) => {
     try {
-        const note = await Note.findOne({ where: { userId: userId,noteId:noteId } });
-        if(!note || note.length === 0){
+        const note = await Note.findOne({ where: { userId: userId, noteId: noteId } });
+        if (!note || note.length === 0) {
             return { success: false, message: 'No Note Found', data: [] };
 
         }
@@ -77,3 +77,62 @@ export const getNoteById = async (userId,noteId) => {
     }
 
 }
+
+export const toggleTrashNote = async (userId, noteId) => {
+    try {
+        const note = await Note.findOne({ where: { userId: userId, noteId: noteId } });
+        if (!note) {
+            return { success: false, message: 'No note Found' };
+        }
+        note.isTrashed = !note.isTrashed;
+        await note.save();
+        return { success: true, message: `Toggled note trash successfully` };
+    } catch (error) {
+        console.error("Error in toggle trash note:", error);
+        return {
+            success: false,
+            message: `Error in toggle trash note: ${error.message}`
+        };
+    }
+};
+
+export const toggleArchiveNote = async (userId, noteId) => {
+    try {
+        const note = await Note.findOne({ where: { userId: userId, noteId: noteId } });
+        if (!note) {
+            return { success: false, message: 'No note Found' };
+        }
+        if(note.isTrashed){
+            return {success:false,message:'Note is in trash cannot archive it'}
+        }
+        note.isArchived = !note.isArchived;
+        await note.save();
+        return { success: true, message: `Toggled archive note successfully` };
+    } catch (error) {
+        console.error("Error in toggle archive note:", error);
+        return {
+            success: false,
+            message: `Error in toggle archive note: ${error.message}`
+        };
+    }
+};
+
+export const deleteNoteForever = async (userId, noteId) => {
+    try {
+        const note = await Note.findOne({ where: { userId: userId, noteId: noteId } });
+        if (!note) {
+            return { success: false, message: 'No note Found' };
+        }
+       
+       await Note.destroy({ where: { userId: userId, noteId: noteId } })
+       
+        return { success: true, message: `Note successfully deleted forever` };
+    } catch (error) {
+        console.error("Error in deleting note forever:", error);
+        return {
+            success: false,
+            message: `Error in deleting note forever: ${error.message}`
+        };
+    }
+};
+

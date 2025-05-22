@@ -108,4 +108,77 @@ export const getAllNotes = async (req, res) => {
       });
     }
   };
+
+  export const toggleTrashNote = async (req, res) => {
+    try {
+      const { userId } = res.locals.user;
+      const { noteId } = req.params;
+  
+      const result = await notesService.toggleTrashNote(userId, noteId);
+  
+      if (!result.success) {
+        return res.status(404).json({
+            success: false,
+            message: result.message
+          });
+      }
+  
+      return res.status(200).json({
+        success: true,
+        message: result.message
+      });
+  
+    } catch (error) {
+      res.status(500).json({ success: false, message: error.message });
+    }
+  };
+
+  export const toggleArchiveNote = async (req, res) => {
+    try {
+      const { userId } = res.locals.user;
+      const { noteId } = req.params;
+  
+      const result = await notesService.toggleArchiveNote(userId, noteId);
+  
+      if (!result.success) {
+        return res.status(404).json({
+            success: false,
+            message: result.message
+          });
+      }
+  
+      return res.status(200).json({
+        success: true,
+        message: result.message
+      });
+  
+    } catch (error) {
+      res.status(500).json({ success: false, message: error.message });
+    }
+  };
+
+  export const deleteNoteForever = async (req, res) => {
+    try {
+      const { userId } = res.locals.user;
+      const { noteId } = req.params;
+  
+      const result = await notesService.deleteNoteForever(userId, noteId);
+  
+      if (!result.success) {
+        return res.status(404).json({
+            success: false,
+            message: result.message
+          });
+      }
+  
+      return res.status(200).json({
+        success: true,
+        message: result.message
+      });
+  
+    } catch (error) {
+      res.status(500).json({ success: false, message: error.message });
+    }
+  };
+  
   
