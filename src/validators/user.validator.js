@@ -42,3 +42,16 @@ export const forgotPassValidator = (req,res,next) =>{
     next();
   }
 };
+export const resetPasswordValidator = (req, res, next) => {
+  const schema = Joi.object({
+    newPassword: Joi.string().min(6).required()
+  });
+
+  const { error, value } = schema.validate(req.body);
+  if (error) {
+    return res.status(400).json({ message: error.message });
+  }
+
+  req.validatedBody = value;
+  next();
+};

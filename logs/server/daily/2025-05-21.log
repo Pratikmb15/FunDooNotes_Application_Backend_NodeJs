@@ -23,3 +23,151 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T0
 info: Connected to the database. {"timestamp":"2025-05-21T06:32:38.287Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T06:32:43.326Z"}
 info: Connected to the database. {"timestamp":"2025-05-21T06:32:43.783Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:28:40.454Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:28:40.753Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:29:54.859Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:29:55.201Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:30:13.312Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:30:13.545Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:30:51.760Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:30:51.990Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:36:32.248Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:36:32.692Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:52:38.375Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:52:38.924Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:55:33.716Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:55:34.256Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:56:31.694Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:56:32.144Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:57:41.114Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:57:41.490Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T08:59:09.574Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T08:59:10.006Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:00:19.184Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:00:53.215Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:00:53.637Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:01:54.616Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:01:55.038Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:05:40.355Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:05:40.912Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:32)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-05-21T09:13:11.555Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:32)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-05-21T09:13:28.790Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:15:39.455Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:15:39.905Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:24:06.800Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:24:07.096Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:26:07.072Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:29:18.792Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:29:19.306Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:32:01.704Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:32:02.184Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:33:12.931Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:33:13.317Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-21T09:43:49.963Z"}
+info: Connected to the database. {"timestamp":"2025-05-21T09:43:50.388Z"}

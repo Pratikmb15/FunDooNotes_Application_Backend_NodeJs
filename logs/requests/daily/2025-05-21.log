@@ -6,3 +6,41 @@ info: ::1 - - [21/May/2025:06:31:49 +0000] "POST /api/v1/users/forgot-password H
 
 info: ::1 - - [21/May/2025:06:32:54 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 92 "-" "PostmanRuntime/7.44.0"
 
+info: ::1 - - [21/May/2025:08:28:55 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 55 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:30:15 +0000] "POST /api/v1/users HTTP/1.1" 400 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:30:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:31:18 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:31:23 +0000] "POST /api/v1/users HTTP/1.1" 400 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:36:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:36:46 +0000] "POST /api/v1/users HTTP/1.1" 400 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:36:53 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:08:36:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:04:36 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:05:50 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 92 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:07:28 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 500 95 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:13:11 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 500 48 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:13:28 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 500 48 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:14:01 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 500 95 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:29:44 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 92 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:30:38 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 500 95 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:33:25 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 500 95 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [21/May/2025:09:43:50 +0000] "PUT /api/v1/users/reset-password HTTP/1.1" 200 65 "-" "PostmanRuntime/7.44.0"
+
