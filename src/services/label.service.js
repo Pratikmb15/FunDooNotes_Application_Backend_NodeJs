@@ -60,6 +60,9 @@ export const getlabelById = async (userId, noteId,labelId) => {
                 type: sequelize.QueryTypes.SELECT
             }
         );
+        if(!labels || labels.count ==0){
+            return {success:false,message:"Label not found"};
+        }
         return { success: true, message: 'Fetched Label successfully', data: labels };
     } catch (error) {
         console.error("Error in fetching label:", error);
@@ -69,4 +72,30 @@ export const getlabelById = async (userId, noteId,labelId) => {
         };
     }
 
+};
+
+export const deleteLabel = async (userId, labelId) => { 
+    try {
+        const label =await Label.findByPk(labelId);
+        if(!label){
+            return {success:false,message:"Label not found"};
+        }
+        await sequelize.query(
+            `DELETE FROM "Labels" 
+             WHERE "labelId" = $1 AND "userId" = $2`,
+            {
+                bind: [labelId, userId],
+                type: sequelize.QueryTypes.DELETE
+            }
+        );
+        return { success: true, message: 'Label deleted successfully' };
+          
+    } catch (error) {
+        console.error("Error in deleting label:", error);
+        return {
+            success: false,
+            message: `Error in deleting label: ${error.message}`
+        };
+    }
 }
+

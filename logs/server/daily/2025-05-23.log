@@ -313,3 +313,269 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T0
 info: Connected to the database. {"timestamp":"2025-05-23T08:44:01.940Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:44:31.209Z"}
 info: Connected to the database. {"timestamp":"2025-05-23T08:44:31.799Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:11:20.601Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:11:20.844Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:12:05.161Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:12:05.555Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:16:20.498Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:16:20.741Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/label/1 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2025-05-23T09:17:55.596Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:21:16.794Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:21:17.031Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:38:03.554Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:38:03.828Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:38:34.383Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:38:34.603Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:41:07.945Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:41:08.234Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:41:49.041Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:41:49.311Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:31)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/label 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-23T09:41:59.347Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:42:08.267Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:42:08.499Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:42:59.584Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:42:59.917Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:31)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/label 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-05-23T09:43:08.686Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:31)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/label 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-23T09:43:26.544Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:31)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/label 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-23T09:43:27.932Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:44:14.579Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:44:14.915Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/label/2 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-05-23T09:45:13.325Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:47:26.999Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:47:27.304Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:48:06.384Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:48:06.730Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T09:52:20.791Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T09:52:21.195Z"}
