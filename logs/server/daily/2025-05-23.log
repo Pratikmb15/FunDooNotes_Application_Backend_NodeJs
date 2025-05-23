@@ -270,3 +270,46 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T0
 info: Connected to the database. {"timestamp":"2025-05-23T08:01:34.861Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:03:41.974Z"}
 info: Connected to the database. {"timestamp":"2025-05-23T08:03:42.517Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:16:05.033Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:16:05.570Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:18:48.417Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:18:48.876Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:20:20.144Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:20:20.644Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:20:57.153Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:20:57.466Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:21:17.398Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:21:17.920Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:21:36.503Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:21:37.019Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:22:06.439Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:25:17.556Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:25:17.961Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:25:18.645Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:26:26.264Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:26:26.621Z"}
+error: 
+    status - 500 
+    message - ValidationError: "labelName" is required 
+    url - /api/v1/label 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-05-23T08:28:10.617Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:28:53.913Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:28:54.372Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:31:16.796Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:31:17.101Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:34:02.328Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:34:02.886Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:34:39.665Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:34:40.228Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:40:47.623Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:40:48.063Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:41:56.231Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:41:56.709Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:42:43.159Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:42:43.623Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:44:01.216Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:44:01.940Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-23T08:44:31.209Z"}
+info: Connected to the database. {"timestamp":"2025-05-23T08:44:31.799Z"}
