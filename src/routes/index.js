@@ -3,6 +3,7 @@ const router = express.Router();
 
 import userRoute from './user.route';
 import notesRoute from './notes.route';
+import labelsRoute from './labels.route';
 /**
  * Function contains Application routes
  *
@@ -13,7 +14,8 @@ const routes = () => {
     res.json('Welcome');
   });
   router.use('/users', userRoute);
-  router.use('/note',notesRoute)
+  router.use('/note',notesRoute);
+  router.use('/label',labelsRoute);
 
   return router;
 };
