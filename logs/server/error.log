@@ -1871,3 +1871,79 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2025-05-22T06:11:34.160Z"}
+error: uncaughtException: WHERE parameter "noteId" has invalid "undefined" value
+Error: WHERE parameter "noteId" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2451:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2440:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2438:35)
+    at PostgresQueryGenerator.getWhereConditions (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2866:19)
+    at PostgresQueryGenerator.selectQuery (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:1466:28)
+    at PostgresQueryInterface.select (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Function.findOne (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\model.js:1998:12) {"date":"Thu May 22 2025 13:36:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3635682.281},"process":{"argv":["node","C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\index.js"],"cwd":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":88408,"external":3236336,"heapTotal":99368960,"heapUsed":55993592,"rss":143302656},"pid":51560,"uid":null,"version":"v22.13.1"},"stack":"Error: WHERE parameter \"noteId\" has invalid \"undefined\" value\n    at PostgresQueryGenerator.whereItemQuery (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2451:13)\n    at C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2440:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2438:35)\n    at PostgresQueryGenerator.getWhereConditions (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2866:19)\n    at PostgresQueryGenerator.selectQuery (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:1466:28)\n    at PostgresQueryInterface.select (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:1002:27)\n    at Function.findAll (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js:1824:47)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.findOne (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js:1998:12)","timestamp":"2025-05-22T08:06:43.666Z","trace":[{"column":13,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.whereItemQuery","line":2451,"method":"whereItemQuery","native":false},{"column":25,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":null,"line":2440,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":35,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.whereItemsQuery","line":2438,"method":"whereItemsQuery","native":false},{"column":19,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.getWhereConditions","line":2866,"method":"getWhereConditions","native":false},{"column":28,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.selectQuery","line":1466,"method":"selectQuery","native":false},{"column":27,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js","function":"PostgresQueryInterface.select","line":1002,"method":"select","native":false},{"column":47,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js","function":"Function.findAll","line":1824,"method":"findAll","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":105,"method":null,"native":false},{"column":12,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js","function":"Function.findOne","line":1998,"method":"findOne","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/archive/1 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2025-05-22T16:04:51.081Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:24:31)
+    at s (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\body-parser\lib\types\urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/note/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-22T16:07:11.910Z"}

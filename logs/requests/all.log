@@ -1816,3 +1816,93 @@ info: ::1 - - [22/May/2025:06:12:59 +0000] "POST /api/v1/note HTTP/1.1" 400 116 
 
 info: ::1 - - [22/May/2025:06:30:12 +0000] "POST /api/v1/note HTTP/1.1" 201 65 "-" "PostmanRuntime/7.44.0"
 
+info: ::1 - - [22/May/2025:08:03:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:03:38 +0000] "PUT /api/v1/note HTTP/1.1" 400 95 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:06:43 +0000] "PUT /api/v1/note HTTP/1.1" 400 120 "-" "PostmanRuntime/7.44.0"
+
+error: uncaughtException: WHERE parameter "noteId" has invalid "undefined" value
+Error: WHERE parameter "noteId" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2451:13)
+    at C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2440:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2438:35)
+    at PostgresQueryGenerator.getWhereConditions (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:2866:19)
+    at PostgresQueryGenerator.selectQuery (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-generator.js:1466:28)
+    at PostgresQueryInterface.select (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Function.findOne (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\sequelize\src\model.js:1998:12) {"date":"Thu May 22 2025 13:36:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3635682.281},"process":{"argv":["node","C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\index.js"],"cwd":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":99902,"external":3247870,"heapTotal":99368960,"heapUsed":56130240,"rss":143339520},"pid":51560,"uid":null,"version":"v22.13.1"},"stack":"Error: WHERE parameter \"noteId\" has invalid \"undefined\" value\n    at PostgresQueryGenerator.whereItemQuery (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2451:13)\n    at C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2440:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2438:35)\n    at PostgresQueryGenerator.getWhereConditions (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:2866:19)\n    at PostgresQueryGenerator.selectQuery (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js:1466:28)\n    at PostgresQueryInterface.select (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:1002:27)\n    at Function.findAll (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js:1824:47)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.findOne (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js:1998:12)","trace":[{"column":13,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.whereItemQuery","line":2451,"method":"whereItemQuery","native":false},{"column":25,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":null,"line":2440,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":35,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.whereItemsQuery","line":2438,"method":"whereItemsQuery","native":false},{"column":19,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.getWhereConditions","line":2866,"method":"getWhereConditions","native":false},{"column":28,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-generator.js","function":"PostgresQueryGenerator.selectQuery","line":1466,"method":"selectQuery","native":false},{"column":27,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js","function":"PostgresQueryInterface.select","line":1002,"method":"select","native":false},{"column":47,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js","function":"Function.findAll","line":1824,"method":"findAll","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":105,"method":null,"native":false},{"column":12,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\sequelize\\src\\model.js","function":"Function.findOne","line":1998,"method":"findOne","native":false}]}
+info: ::1 - - [22/May/2025:08:07:20 +0000] "PUT /api/v1/note/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:08:08:57 +0000] "PUT /api/v1/note/1 HTTP/1.1" 200 65 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:01:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:01:47 +0000] "GET /api/v1/note HTTP/1.1" 200 65 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:02:00 +0000] "GET /api/v1/note HTTP/1.1" 200 65 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:03:13 +0000] "GET /api/v1/note HTTP/1.1" 200 277 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:11:32 +0000] "GET /api/v1/note/1 HTTP/1.1" 500 84 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:11:46 +0000] "GET /api/v1/note/1 HTTP/1.1" 500 84 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:11:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:12:12 +0000] "GET /api/v1/note/1 HTTP/1.1" 500 84 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:10:13:14 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:04:51 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:05:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:05:19 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:05:58 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:06:00 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:06:02 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 93 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:04 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:11 +0000] "GET /api/v1/note/1 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:35 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:43 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:07:50 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:08:42 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:08:49 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:08:58 +0000] "PATCH /api/v1/note/trash/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:03 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:15 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 404 64 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:22 +0000] "PATCH /api/v1/note/trash/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:28 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 275 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:33 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:38 +0000] "GET /api/v1/note/1 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:09:42 +0000] "PATCH /api/v1/note/archive/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:18:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:19:07 +0000] "DELETE /api/v1/note/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:19:11 +0000] "DELETE /api/v1/note/1 HTTP/1.1" 404 43 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [22/May/2025:16:19:17 +0000] "GET /api/v1/note/1 HTTP/1.1" 404 53 "-" "PostmanRuntime/7.44.0"
+
