@@ -113,4 +113,6 @@ export const deleteLabel = async (req, res) => {
             message: error.message
         });
     }
-}
+};
+
+
