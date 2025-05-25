@@ -36,6 +36,14 @@ export const getAllCollaborators =async (userId,noteId)=>{
                 type: sequelize.QueryTypes.SELECT
             }
         );
+        if (collaborators.length === 0) {
+            return {
+                success: true,
+                message: 'No collaborators found for this note.',
+                data: []
+            };
+        }
+        
         return { success: true, message: 'Fetched Collaborators successfully', data: collaborators };
     } catch (error) {
         console.error("Error in fetching collaborators :", error);
@@ -57,6 +65,14 @@ export const getCollabratorById = async (userId, noteId,collaboratorId) => {
                 type: sequelize.QueryTypes.SELECT
             }
         );
+        if (collaborator.length === 0) {
+            return {
+                success: true,
+                message: 'No collaborators found for this note.',
+                data: []
+            };
+        }
+        
         if(!collaborator || collaborator.count ==0){
             return {success:false,message:"collaborator not found"};
         }
@@ -69,4 +85,29 @@ export const getCollabratorById = async (userId, noteId,collaboratorId) => {
         };
     }
 
+};
+
+export const deleteCollaborator = async (userId, collaboratorId) => { 
+    try {
+        const collaborator =await Collaborator.findByPk(collaboratorId);
+        if(!collaborator){
+            return {success:false,message:"collaborator not found"};
+        }
+        await sequelize.query(
+            `DELETE FROM "Collaborators" 
+             WHERE "collaboratorId" = $1 AND "userId" = $2`,
+            {
+                bind: [collaboratorId, userId],
+                type: sequelize.QueryTypes.DELETE
+            }
+        );
+        return { success: true, message: 'collaborator deleted successfully' };
+          
+    } catch (error) {
+        console.error("Error in deleting collaborator:", error);
+        return {
+            success: false,
+            message: `Error in deleting collaborator: ${error.message}`
+        };
+    }
 };
