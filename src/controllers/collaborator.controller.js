@@ -1,11 +1,13 @@
 import HttpStatus from 'http-status-codes';
-import * as labelService from '../services/label.service';
+import * as collaboratorService from '../services/collaborator.service';
 
-export const addlabel = async (req, res) => {
+export const addCollaborator = async (req, res) => {
     try {
         const { userId } = res.locals.user;
+        const { noteId } = req.body;
+        const { email } = req.body;
 
-        const result = await labelService.addLabel(userId, req.body);
+        const result = await collaboratorService.addCollaborator(userId, noteId, email);
         if (!result.success) {
             return res.status(HttpStatus.BAD_REQUEST).json({
                 code: HttpStatus.BAD_REQUEST,
@@ -28,12 +30,12 @@ export const addlabel = async (req, res) => {
     }
 };
 
-export const getAllLabels = async (req, res) => {
+export const getAllCollaborators = async (req, res) => {
     try {
         const { userId } = res.locals.user;
         const { noteId } = req.body;
 
-        const result = await labelService.getAllLabels(userId, noteId);
+        const result = await collaboratorService.getAllCollaborators(userId, noteId);
         if (!result.success) {
             return res.status(HttpStatus.BAD_REQUEST).json({
                 code: HttpStatus.BAD_REQUEST,
@@ -57,13 +59,13 @@ export const getAllLabels = async (req, res) => {
     }
 };
 
-export const getlabelById = async (req, res) => {
+export const getCollaboratorById = async (req, res) => {
     try {
         const { userId } = res.locals.user;
         const { noteId } = req.body;
-        const { labelId } = req.params;
+        const { collaboratorId } = req.params;
 
-        const result = await labelService.getlabelById(userId, noteId, labelId);
+        const result = await collaboratorService.getCollabratorById(userId, noteId,collaboratorId);
         if (!result.success) {
             return res.status(HttpStatus.BAD_REQUEST).json({
                 code: HttpStatus.BAD_REQUEST,
@@ -87,11 +89,11 @@ export const getlabelById = async (req, res) => {
     }
 };
 
-export const deleteLabel = async (req, res) => {
+export const deleteCollaborator = async (req, res) => {
     try {
         const { userId } = res.locals.user;
-        const { labelId } = req.params;
-        const result = await labelService.deleteLabel(userId, labelId);
+        const { collaboratorId } = req.params;
+        const result = await collaboratorService.deleteCollaborator(userId, collaboratorId);
         if (!result.success) {
             return res.status(HttpStatus.BAD_REQUEST).json({
                 code: HttpStatus.BAD_REQUEST,
@@ -114,5 +116,3 @@ export const deleteLabel = async (req, res) => {
         });
     }
 };
-
-

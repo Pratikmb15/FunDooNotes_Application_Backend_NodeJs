@@ -38,6 +38,14 @@ export const getAllLabels = async (userId, noteId) => {
                 type: sequelize.QueryTypes.SELECT
             }
         );
+        if (labels.length === 0) {
+            return {
+                success: true,
+                message: 'No labels found for this note.',
+                data: []
+            };
+        }
+        
         return { success: true, message: 'Fetched Labels successfully', data: labels };
     } catch (error) {
         console.error("Error in fetching labels :", error);
@@ -60,9 +68,14 @@ export const getlabelById = async (userId, noteId,labelId) => {
                 type: sequelize.QueryTypes.SELECT
             }
         );
-        if(!labels || labels.count ==0){
-            return {success:false,message:"Label not found"};
+        if (labels.length === 0) {
+            return {
+                success: true,
+                message: 'No label found for this note.',
+                data: []
+            };
         }
+        
         return { success: true, message: 'Fetched Label successfully', data: labels };
     } catch (error) {
         console.error("Error in fetching label:", error);
