@@ -25,3 +25,48 @@ export const addCollaborator = async (userId, noteId, email) => {
     };
 }
 }
+
+export const getAllCollaborators =async (userId,noteId)=>{
+    try{
+        const collaborators = await sequelize.query(
+            `SELECT * FROM "Collaborators" 
+             WHERE "userId" = $1 AND "noteId" = $2`,
+            {
+                bind: [userId, noteId],
+                type: sequelize.QueryTypes.SELECT
+            }
+        );
+        return { success: true, message: 'Fetched Collaborators successfully', data: collaborators };
+    } catch (error) {
+        console.error("Error in fetching collaborators :", error);
+        return {
+            success: false,
+            message: `Error  in fetching collaborators : ${error.message}`
+        };
+    }
+};
+
+export const getCollabratorById = async (userId, noteId,collaboratorId) => {
+    try {
+
+        const collaborator = await sequelize.query(
+            `SELECT * FROM "Collaborators" 
+             WHERE "userId" = $1 AND "noteId" = $2 AND "collaboratorId" = $3`,
+            {
+                bind: [userId, noteId,collaboratorId],
+                type: sequelize.QueryTypes.SELECT
+            }
+        );
+        if(!collaborator || collaborator.count ==0){
+            return {success:false,message:"collaborator not found"};
+        }
+        return { success: true, message: 'Fetched collaborator successfully', data: collaborator };
+    } catch (error) {
+        console.error("Error in fetching collaborator:", error);
+        return {
+            success: false,
+            message: `Error  in fetching collaborator: ${error.message}`
+        };
+    }
+
+};

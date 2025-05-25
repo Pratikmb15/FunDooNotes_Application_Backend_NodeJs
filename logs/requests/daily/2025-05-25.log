@@ -1,0 +1,8 @@
+info: ::1 - - [25/May/2025:06:15:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 255 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [25/May/2025:06:15:46 +0000] "GET /api/v1//collaborator HTTP/1.1" 500 57 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [25/May/2025:06:16:49 +0000] "GET /api/v1//collaborator HTTP/1.1" 200 233 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [25/May/2025:06:17:01 +0000] "GET /api/v1//collaborator/1 HTTP/1.1" 200 232 "-" "PostmanRuntime/7.44.0"
+

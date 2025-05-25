@@ -29,3 +29,62 @@ export const addCollaborator = async (req, res) => {
         });
     }
 };
+
+export const getAllCollaborators = async (req, res) => {
+    try {
+        const { userId } = res.locals.user;
+        const { noteId } = req.body;
+
+        const result = await collaboratorService.getAllCollaborators(userId, noteId);
+        if (!result.success) {
+            return res.status(HttpStatus.BAD_REQUEST).json({
+                code: HttpStatus.BAD_REQUEST,
+                success: false,
+                message: result.message
+            });
+        }
+        return res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            success: result.success,
+            message: result.message,
+            data: result.data
+        });
+    }
+    catch (error) {
+        return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+            code: HttpStatus.INTERNAL_SERVER_ERROR,
+            success: false,
+            message: error.message
+        });
+    }
+};
+
+export const getCollaboratorById = async (req, res) => {
+    try {
+        const { userId } = res.locals.user;
+        const { noteId } = req.body;
+        const { collaboratorId } = req.params;
+
+        const result = await collaboratorService.getCollabratorById(userId, noteId,collaboratorId);
+        if (!result.success) {
+            return res.status(HttpStatus.BAD_REQUEST).json({
+                code: HttpStatus.BAD_REQUEST,
+                success: false,
+                message: result.message
+            });
+        }
+        return res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            success: result.success,
+            message: result.message,
+            data: result.data
+        });
+    }
+    catch (error) {
+        return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+            code: HttpStatus.INTERNAL_SERVER_ERROR,
+            success: false,
+            message: error.message
+        });
+    }
+};
