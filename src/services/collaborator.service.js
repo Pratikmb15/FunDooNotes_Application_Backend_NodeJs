@@ -1,12 +1,13 @@
 import { Collaborator } from '../models/collaborator';
 import sequelize from '../config/database';
+import HttpStatus from 'http-status-codes';
 
 
 export const addCollaborator = async (userId, noteId, email) => {
     try{
     const isCollaborator = await Collaborator.findOne({ where: { userId: userId, noteId: noteId, email: email } });
     if (isCollaborator) {
-        return { success: false, message: 'This Collaborator already exists' };
+        return { success: false,code: HttpStatus.BAD_REQUEST , message: 'This Collaborator already exists' };
     }
     await sequelize.query(
         `INSERT INTO "Collaborators" ("email", "noteId", "userId", "createdAt", "updatedAt")
@@ -16,11 +17,12 @@ export const addCollaborator = async (userId, noteId, email) => {
             type: sequelize.QueryTypes.INSERT
         }
     );
-    return { success: true, message: 'collaborator added successfully' };
+    return { success: true,code: HttpStatus.CREATED , message: 'collaborator added successfully' };
 } catch (error) {
     console.error("Error in adding collaborator:", error);
     return {
         success: false,
+        code: HttpStatus.INTERNAL_SERVER_ERROR ,
         message: `Error  in adding collaborator: ${error.message}`
     };
 }
@@ -39,16 +41,18 @@ export const getAllCollaborators =async (userId,noteId)=>{
         if (collaborators.length === 0) {
             return {
                 success: true,
+                code: HttpStatus.OK ,
                 message: 'No collaborators found for this note.',
                 data: []
             };
         }
         
-        return { success: true, message: 'Fetched Collaborators successfully', data: collaborators };
+        return { success: true,code: HttpStatus.OK , message: 'Fetched Collaborators successfully', data: collaborators };
     } catch (error) {
         console.error("Error in fetching collaborators :", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error  in fetching collaborators : ${error.message}`
         };
     }

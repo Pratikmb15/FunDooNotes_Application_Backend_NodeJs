@@ -6,17 +6,9 @@ export const addlabel = async (req, res) => {
         const { userId } = res.locals.user;
 
         const result = await labelService.addLabel(userId, req.body);
-        if (!result.success) {
-            return res.status(HttpStatus.BAD_REQUEST).json({
-                code: HttpStatus.BAD_REQUEST,
-                success: false,
-                message: result.message
-            });
-        }
-        return res.status(HttpStatus.CREATED).json({
-            code: HttpStatus.CREATED,
-            success: result.success,
-            message: result.message
+
+        return res.status(result.code).json({
+            result
         });
 
     } catch (error) {
@@ -34,18 +26,9 @@ export const getAllLabels = async (req, res) => {
         const { noteId } = req.body;
 
         const result = await labelService.getAllLabels(userId, noteId);
-        if (!result.success) {
-            return res.status(HttpStatus.BAD_REQUEST).json({
-                code: HttpStatus.BAD_REQUEST,
-                success: false,
-                message: result.message
-            });
-        }
-        return res.status(HttpStatus.OK).json({
-            code: HttpStatus.OK,
-            success: result.success,
-            message: result.message,
-            data: result.data
+        
+        return res.status(result.code).json({
+            result
         });
     }
     catch (error) {
@@ -64,18 +47,8 @@ export const getlabelById = async (req, res) => {
         const { labelId } = req.params;
 
         const result = await labelService.getlabelById(userId, noteId, labelId);
-        if (!result.success) {
-            return res.status(HttpStatus.BAD_REQUEST).json({
-                code: HttpStatus.BAD_REQUEST,
-                success: false,
-                message: result.message
-            });
-        }
-        return res.status(HttpStatus.OK).json({
-            code: HttpStatus.OK,
-            success: result.success,
-            message: result.message,
-            data: result.data
+        return res.status(result.code).json({
+           result
         });
     }
     catch (error) {
@@ -92,18 +65,8 @@ export const deleteLabel = async (req, res) => {
         const { userId } = res.locals.user;
         const { labelId } = req.params;
         const result = await labelService.deleteLabel(userId, labelId);
-        if (!result.success) {
-            return res.status(HttpStatus.BAD_REQUEST).json({
-                code: HttpStatus.BAD_REQUEST,
-                success: false,
-                message: result.message
-            });
-        }
-        return res.status(HttpStatus.OK).json({
-            code: HttpStatus.OK,
-            success: result.success,
-            message: result.message,
-            data: result.data
+        return res.status(result.code).json({
+         result
         });
 
     } catch (error) {

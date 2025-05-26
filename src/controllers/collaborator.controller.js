@@ -8,17 +8,9 @@ export const addCollaborator = async (req, res) => {
         const { email } = req.body;
 
         const result = await collaboratorService.addCollaborator(userId, noteId, email);
-        if (!result.success) {
-            return res.status(HttpStatus.BAD_REQUEST).json({
-                code: HttpStatus.BAD_REQUEST,
-                success: false,
-                message: result.message
-            });
-        }
-        return res.status(HttpStatus.CREATED).json({
-            code: HttpStatus.CREATED,
-            success: result.success,
-            message: result.message
+      
+        return res.status(result.code).json({
+         result
         });
 
     } catch (error) {
@@ -36,18 +28,9 @@ export const getAllCollaborators = async (req, res) => {
         const { noteId } = req.body;
 
         const result = await collaboratorService.getAllCollaborators(userId, noteId);
-        if (!result.success) {
-            return res.status(HttpStatus.BAD_REQUEST).json({
-                code: HttpStatus.BAD_REQUEST,
-                success: false,
-                message: result.message
-            });
-        }
-        return res.status(HttpStatus.OK).json({
-            code: HttpStatus.OK,
-            success: result.success,
-            message: result.message,
-            data: result.data
+        
+        return res.status(result.code).json({
+            result
         });
     }
     catch (error) {

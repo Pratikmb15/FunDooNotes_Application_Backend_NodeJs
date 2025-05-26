@@ -15,9 +15,9 @@ const routes = () => {
     res.json('Welcome');
   });
   router.use('/users', userRoute);
-  router.use('/note',notesRoute);
-  router.use('/label',labelsRoute);
-  router.use('/collaborator',colaboratorsRoute);
+  router.use('/notes',notesRoute);
+  router.use('/labels',labelsRoute);
+  router.use('/collaborators',colaboratorsRoute);
 
   return router;
 };

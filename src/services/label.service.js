@@ -1,5 +1,6 @@
 import { Label } from "../models/label";
 import sequelize from '../config/database';
+import HttpStatus from 'http-status-codes';
 
 export const addLabel = async (userId, body) => {
     try {
@@ -7,7 +8,7 @@ export const addLabel = async (userId, body) => {
         const { labelName } = body;
         const label = await Label.findOne({ where: { userId, noteId } })
         if (label) {
-            return { success: false, message: 'label already exists' };
+            return { success: false,code: HttpStatus.BAD_REQUEST , message: 'label already exists' };
         }
         await sequelize.query(
             `INSERT INTO "Labels" ("labelName", "noteId", "userId", "createdAt", "updatedAt")
@@ -17,11 +18,12 @@ export const addLabel = async (userId, body) => {
                 type: sequelize.QueryTypes.INSERT
             }
         );
-        return { success: true, message: 'Label created successfully' };
+        return { success: true,code: HttpStatus.CREATED , message: 'Label created successfully' };
     } catch (error) {
         console.error("Error in adding label:", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error  in adding label: ${error.message}`
         };
     }
@@ -41,16 +43,18 @@ export const getAllLabels = async (userId, noteId) => {
         if (labels.length === 0) {
             return {
                 success: true,
+                code: HttpStatus.OK ,
                 message: 'No labels found for this note.',
                 data: []
             };
         }
         
-        return { success: true, message: 'Fetched Labels successfully', data: labels };
+        return { success: true,code: HttpStatus.OK , message: 'Fetched Labels successfully', data: labels };
     } catch (error) {
         console.error("Error in fetching labels :", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error  in fetching labels : ${error.message}`
         };
     }
@@ -71,16 +75,18 @@ export const getlabelById = async (userId, noteId,labelId) => {
         if (labels.length === 0) {
             return {
                 success: true,
+                code: HttpStatus.OK ,
                 message: 'No label found for this note.',
                 data: []
             };
         }
         
-        return { success: true, message: 'Fetched Label successfully', data: labels };
+        return { success: true,code: HttpStatus.OK , message: 'Fetched Label successfully', data: labels };
     } catch (error) {
         console.error("Error in fetching label:", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error  in fetching label: ${error.message}`
         };
     }
@@ -91,7 +97,7 @@ export const deleteLabel = async (userId, labelId) => {
     try {
         const label =await Label.findByPk(labelId);
         if(!label){
-            return {success:false,message:"Label not found"};
+            return {success:false,code: HttpStatus.BAD_REQUEST ,message:"Label not found"};
         }
         await sequelize.query(
             `DELETE FROM "Labels" 
@@ -101,12 +107,13 @@ export const deleteLabel = async (userId, labelId) => {
                 type: sequelize.QueryTypes.DELETE
             }
         );
-        return { success: true, message: 'Label deleted successfully' };
+        return { success: true,code: HttpStatus.ACCEPTED , message: 'Label deleted successfully' };
           
     } catch (error) {
         console.error("Error in deleting label:", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error in deleting label: ${error.message}`
         };
     }
