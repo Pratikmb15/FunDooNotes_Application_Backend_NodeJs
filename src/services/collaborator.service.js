@@ -72,19 +72,18 @@ export const getCollabratorById = async (userId, noteId,collaboratorId) => {
         if (collaborator.length === 0) {
             return {
                 success: true,
+                code: HttpStatus.OK ,
                 message: 'No collaborators found for this note.',
                 data: []
             };
         }
-        
-        if(!collaborator || collaborator.count ==0){
-            return {success:false,message:"collaborator not found"};
-        }
-        return { success: true, message: 'Fetched collaborator successfully', data: collaborator };
+  
+        return { success: true,code: HttpStatus.OK , message: 'Fetched collaborator successfully', data: collaborator };
     } catch (error) {
         console.error("Error in fetching collaborator:", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error  in fetching collaborator: ${error.message}`
         };
     }
@@ -95,7 +94,7 @@ export const deleteCollaborator = async (userId, collaboratorId) => {
     try {
         const collaborator =await Collaborator.findByPk(collaboratorId);
         if(!collaborator){
-            return {success:false,message:"collaborator not found"};
+            return {success:false,code: HttpStatus.BAD_REQUEST ,message:"collaborator not found"};
         }
         await sequelize.query(
             `DELETE FROM "Collaborators" 
@@ -105,12 +104,13 @@ export const deleteCollaborator = async (userId, collaboratorId) => {
                 type: sequelize.QueryTypes.DELETE
             }
         );
-        return { success: true, message: 'collaborator deleted successfully' };
+        return { success: true,code: HttpStatus.ACCEPTED , message: 'collaborator deleted successfully' };
           
     } catch (error) {
         console.error("Error in deleting collaborator:", error);
         return {
             success: false,
+            code: HttpStatus.INTERNAL_SERVER_ERROR ,
             message: `Error in deleting collaborator: ${error.message}`
         };
     }

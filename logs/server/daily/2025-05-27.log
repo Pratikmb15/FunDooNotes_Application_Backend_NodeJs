@@ -326,3 +326,8 @@ error:
      {"timestamp":"2025-05-27T06:03:32.296Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-27T06:06:44.518Z"}
 info: Connected to the database. {"timestamp":"2025-05-27T06:06:44.765Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-27T08:38:40.513Z"}
+info: Connected to the database. {"timestamp":"2025-05-27T08:38:40.912Z"}
+info: Connected to the database. {"timestamp":"2025-05-27T08:43:47.356Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2025-05-27T08:44:11.679Z"}
+info: Connected to the database. {"timestamp":"2025-05-27T08:44:12.122Z"}

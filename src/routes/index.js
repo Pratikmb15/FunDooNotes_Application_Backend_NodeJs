@@ -5,6 +5,7 @@ import userRoute from './user.route';
 import notesRoute from './notes.route';
 import labelsRoute from './labels.route';
 import colaboratorsRoute from './collaborators.route';
+
 /**
  * Function contains Application routes
  *

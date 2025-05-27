@@ -14,6 +14,7 @@ import {
 import logger, { logStream } from './config/logger';
 import swaggerUi from 'swagger-ui-express';
 import swaggerDocument from './swagger/swagger.json'; 
+import apiRateLimiter from './middlewares/rateLimiter.middleware';
 
 import morgan from 'morgan';
 
@@ -29,7 +30,8 @@ app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-app.use(`/api/${api_version}`, routes());
+
+app.use(`/api/${api_version}`,apiRateLimiter, routes());
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
