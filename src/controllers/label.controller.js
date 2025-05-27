@@ -23,7 +23,7 @@ export const addlabel = async (req, res) => {
 export const getAllLabels = async (req, res) => {
     try {
         const { userId } = res.locals.user;
-        const { noteId } = req.body;
+        const { noteId } = req.query;
 
         const result = await labelService.getAllLabels(userId, noteId);
         
@@ -43,7 +43,7 @@ export const getAllLabels = async (req, res) => {
 export const getlabelById = async (req, res) => {
     try {
         const { userId } = res.locals.user;
-        const { noteId } = req.body;
+        const { noteId } = req.query;
         const { labelId } = req.params;
 
         const result = await labelService.getlabelById(userId, noteId, labelId);

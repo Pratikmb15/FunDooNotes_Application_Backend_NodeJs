@@ -6,8 +6,8 @@ import {getLabelsValidator, newLabelValidator} from '../validators/labels.valida
 const router = express.Router();
 
 router.post('',userAuth,newLabelValidator,labelController.addlabel);
-router.get('',userAuth,getLabelsValidator,labelController.getAllLabels);
-router.get('/:labelId',userAuth,getLabelsValidator,labelController.getlabelById);
+router.get('',userAuth,labelController.getAllLabels);
+router.get('/:labelId',userAuth,labelController.getlabelById);
 router.delete('/:labelId',userAuth,labelController.deleteLabel);
 
 

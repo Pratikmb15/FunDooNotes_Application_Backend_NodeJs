@@ -3260,3 +3260,199 @@ info: ::1 - - [26/May/2025:10:59:45 +0000] "GET /api-docs/favicon-32x32.png HTTP
 
 info: ::1 - - [26/May/2025:11:00:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 230 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0"
 
+info: ::1 - - [27/May/2025:05:23:08 +0000] "GET /api-docs HTTP/1.1" 301 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:08 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:08 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 21818 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:08 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 154986 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:08 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 229223 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:08 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1484234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:09 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:23:50 +0000] "POST /api/v1/users/login HTTP/1.1" 200 230 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:24:13 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:24:24 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:27:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 230 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:27:24 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:31:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 230 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [27/May/2025:05:31:44 +0000] "GET /api/v1/notes HTTP/1.1" 200 505 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [27/May/2025:05:37:17 +0000] "GET /api/v1/notes HTTP/1.1" 200 505 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:38:38 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:38:43 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:39:30 +0000] "GET /api/v1/notes HTTP/1.1" 200 505 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:39:41 +0000] "GET /api/v1/notes/3 HTTP/1.1" 200 291 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:45:17 +0000] "GET /api/v1/collaborators HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\routes\/labels.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Module._compile (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:129:24)
+    at node:internal/modules/cjs/loader:1699:10
+    at Object.newLoader [as .js] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\routes\/index.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Module._compile (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:129:24)
+    at node:internal/modules/cjs/loader:1699:10
+    at Object.newLoader [as .js] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Module._compile (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:129:24)
+    at node:internal/modules/cjs/loader:1699:10
+    at Object.newLoader [as .js] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.runMain (node:internal/modules/run_main:170:5)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\node\src\_babel-node.ts:159:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {"date":"Tue May 27 2025 11:24:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4059734.015},"process":{"argv":["node","C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\index.js"],"cwd":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":61491,"external":3167314,"heapTotal":93470720,"heapUsed":64238032,"rss":137867264},"pid":55760,"uid":null,"version":"v22.13.1"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/labels.route.js:9:8)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Module._compile (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at node:internal/modules/cjs/loader:1699:10\n    at Object.newLoader [as .js] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Module.require (node:internal/modules/cjs/loader:1335:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/index.js:6:1)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Module._compile (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at node:internal/modules/cjs/loader:1699:10\n    at Object.newLoader [as .js] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Module.require (node:internal/modules/cjs/loader:1335:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Module._compile (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at node:internal/modules/cjs/loader:1699:10\n    at Object.newLoader [as .js] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.runMain (node:internal/modules/run_main:170:5)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object.<anonymous> (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","trace":[{"column":15,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/labels.route.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1335,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/index.js","function":null,"line":6,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1335,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.runMain","line":170,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":159,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":170,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":36,"method":null,"native":false}]}
+info: ::1 - - [27/May/2025:05:57:59 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:57:59 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:57:59 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 21654 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:57:59 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:57:59 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:57:59 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:58:15 +0000] "GET /api/v1/labels?noteId=3 HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:58:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 230 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:59:03 +0000] "GET /api/v1/labels?noteId=3 HTTP/1.1" 200 91 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:59:43 +0000] "POST /api/v1/labels HTTP/1.1" 201 77 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:05:59:48 +0000] "GET /api/v1/labels?noteId=3 HTTP/1.1" 200 219 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:00:09 +0000] "GET /api/v1/labels/5?noteId=3 HTTP/1.1" 200 218 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:00:17 +0000] "GET /api/v1/labels/4?noteId=3 HTTP/1.1" 200 90 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:00:23 +0000] "GET /api/v1/labels/2?noteId=3 HTTP/1.1" 200 90 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:00:29 +0000] "GET /api/v1/labels/5?noteId=3 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\routes\/collaborators.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Module._compile (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:129:24)
+    at node:internal/modules/cjs/loader:1699:10
+    at Object.newLoader [as .js] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\routes\/index.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Module._compile (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:129:24)
+    at node:internal/modules/cjs/loader:1699:10
+    at Object.newLoader [as .js] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Module._compile (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:129:24)
+    at node:internal/modules/cjs/loader:1699:10
+    at Object.newLoader [as .js] (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\pirates\lib\index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.runMain (node:internal/modules/run_main:170:5)
+    at Object.<anonymous> (C:\Users\PratikBagul\NodeJsProjects\FundooNotes_Backend\node_modules\@babel\node\src\_babel-node.ts:159:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {"date":"Tue May 27 2025 11:31:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4060147.015},"process":{"argv":["node","C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\index.js"],"cwd":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":61541,"external":3167364,"heapTotal":93995008,"heapUsed":67211904,"rss":138846208},"pid":50104,"uid":null,"version":"v22.13.1"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/collaborators.route.js:9:8)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Module._compile (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at node:internal/modules/cjs/loader:1699:10\n    at Object.newLoader [as .js] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Module.require (node:internal/modules/cjs/loader:1335:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/index.js:7:1)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Module._compile (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at node:internal/modules/cjs/loader:1699:10\n    at Object.newLoader [as .js] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Module.require (node:internal/modules/cjs/loader:1335:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Module._compile (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at node:internal/modules/cjs/loader:1699:10\n    at Object.newLoader [as .js] (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.runMain (node:internal/modules/run_main:170:5)\n    at Object.<anonymous> (C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object.<anonymous> (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","trace":[{"column":15,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/collaborators.route.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1335,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\routes\\/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1335,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.runMain","line":170,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\PratikBagul\\NodeJsProjects\\FundooNotes_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":159,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1562,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1699,"method":null,"native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1313,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1123,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":217,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":170,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":36,"method":null,"native":false}]}
+info: ::1 - - [27/May/2025:06:03:15 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:15 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:15 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 21490 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:15 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:15 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:15 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:32 +0000] "GET /api/v1/collaborators?noteId=3 HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:03:50 +0000] "POST /api/v1/users/login HTTP/1.1" 200 230 "-" "PostmanRuntime/7.44.0"
+
+info: ::1 - - [27/May/2025:06:04:14 +0000] "GET /api/v1/collaborators?noteId=3 HTTP/1.1" 200 98 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:04:48 +0000] "POST /api/v1/collaborators HTTP/1.1" 201 82 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:04:54 +0000] "GET /api/v1/collaborators?noteId=3 HTTP/1.1" 200 244 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:05:14 +0000] "GET /api/v1/collaborators/2?noteId=3 HTTP/1.1" 200 232 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:06:52 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:06:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:06:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 21564 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:06:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:06:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/May/2025:06:06:52 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+

@@ -21,6 +21,7 @@
                 "tags": [
                     "User"
                 ],
+                "summary": "Register User ",
                 "description": "Register user...",
                 "requestBody": {
                     "description": "Register user",
@@ -55,6 +56,7 @@
                 "tags": [
                     "User"
                 ],
+                "summary": "User login",
                 "description": "User login",
                 "requestBody": {
                     "description": "User login",
@@ -424,17 +426,17 @@
                     "Labels"
                 ],
                 "summary": "Get all Labels",
-                "requestBody": {
-                    "description": "noteId",
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "$ref": "#/components/schemas/Get"
-                            }
+                "parameters":[
+                    {
+                        "name": "noteId",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                          "type": "string"
                         }
-                    },
-                    "required": false
-                },
+                      }
+                ],
+            
                 "responses": {
                     "200": {
                         "description": "labels fetched successfully",
@@ -503,19 +505,17 @@
                         "schema": {
                             "type": "string"
                         }
-                    }
-                ],
-                "requestBody": {
-                    "description": "noteId",
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "$ref": "#/components/schemas/Get"
-                            }
-                        }
                     },
-                    "required": false
-                },
+                    {
+                        "name": "noteId",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                ],
+                
                 "responses": {
                     "200": {
                         "description": "label fetched successfully",
@@ -574,17 +574,16 @@
                     "Collaborators"
                 ],
                 "summary": "Get all collaborators",
-                "requestBody": {
-                    "description": "noteId",
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "$ref": "#/components/schemas/Get"
-                            }
-                        }
-                    },
-                    "required": false
-                },
+               "parameters":[
+                {
+                    "name": "noteId",
+                    "in": "query",
+                    "required": true,
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+               ],
                 "responses": {
                     "200": {
                         "description": "collaborators fetched successfully",
@@ -653,19 +652,17 @@
                         "schema": {
                             "type": "string"
                         }
-                    }
-                ],
-                "requestBody": {
-                    "description": "noteId",
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "$ref": "#/components/schemas/Get"
-                            }
-                        }
                     },
-                    "required": false
-                },
+                    {
+                        "name": "noteId",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                ],
+               
                 "responses": {
                     "200": {
                         "description": "collaborator fetched successfully",

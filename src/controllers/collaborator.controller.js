@@ -25,7 +25,7 @@ export const addCollaborator = async (req, res) => {
 export const getAllCollaborators = async (req, res) => {
     try {
         const { userId } = res.locals.user;
-        const { noteId } = req.body;
+        const { noteId } = req.query;
 
         const result = await collaboratorService.getAllCollaborators(userId, noteId);
         
@@ -45,7 +45,7 @@ export const getAllCollaborators = async (req, res) => {
 export const getCollaboratorById = async (req, res) => {
     try {
         const { userId } = res.locals.user;
-        const { noteId } = req.body;
+        const { noteId } = req.query;
         const { collaboratorId } = req.params;
 
         const result = await collaboratorService.getCollabratorById(userId, noteId,collaboratorId);

@@ -14,15 +14,4 @@ export const newLabelValidator = (req, res, next) => {
   }
 };
 
-export const getLabelsValidator = (req, res, next) => {
-  const schema = Joi.object({
-    noteId: Joi.required()
-  });
-  const { error, value } = schema.validate(req.body);
-  if (error) {
-    next(error);
-  } else {
-    req.validatedBody = value;
-    next();
-  }
-};
+

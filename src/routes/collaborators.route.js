@@ -6,8 +6,8 @@ import { newCollaboratorValidator,getCollaboratorValidator } from '../validators
 const router = express.Router();
 
 router.post('',userAuth,newCollaboratorValidator,collaboratorController.addCollaborator);
-router.get('',userAuth,getCollaboratorValidator,collaboratorController.getAllCollaborators);
-router.get('/:collaboratorId',userAuth,getCollaboratorValidator,collaboratorController.getCollaboratorById);
+router.get('',userAuth,collaboratorController.getAllCollaborators);
+router.get('/:collaboratorId',userAuth,collaboratorController.getCollaboratorById);
 router.delete('/:collaboratorId',userAuth,collaboratorController.deleteCollaborator);
 
 export default router;
