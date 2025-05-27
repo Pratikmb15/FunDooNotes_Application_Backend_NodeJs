@@ -23,7 +23,15 @@ const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
 
-app.use(cors());
+const corsOptions = {
+  origin: ['http://localhost:4200'], 
+  methods: ['GET', 'POST', 'PUT','PATCH', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
